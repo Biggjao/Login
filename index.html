@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
@@ -8,30 +9,31 @@
 <body>
     <form class="formulario" action="">
         <div class="card">
+            <div class="card-top">
+                <img class="imglongin" src="imagem/kisspng-computer-icons-login-person-user-avatar-log-5b14db41a61fb6.0478299015280935056805.jpg" alt="">
+              
+                <h2 class=" titulo">Faça seu login aqui</h2>
+                <p>Preencha todos os campos</p>
+            </div>
+            <div class="card-grupo">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+    
+            </div>
+            <div class="card-grupo">
+                <label for="password"></label>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="card-grupo">
+                <label for="Lembre-me"> <input type="checkbox" name="Lembre-me" id="Lembre-me">Lembrar de mim</label>
+                
+            </div>
+            <div class="card-grupo btn">
+                <button type="submit">Entrar</button>
+            </div> 
            
         </div>
-        <div class="card-top">
-            <img class="imglongin" src="imagem/kisspng-computer-icons-login-person-user-avatar-log-5b14db41a61fb6.0478299015280935056805.jpg" alt="">
-          
-            <h2 class=" titulo">Faça seu login aqui</h2>
-            <p>Preencha todos os campos</p>
-        </div>
-        <div class="card-grupo">
-            <label for="email"></label>
-            <input type="email" name="email" placeholder="Digite seu email" required>
-
-        </div>
-        <div class="card-grupo">
-            <label for="password"></label>
-            <input type="password" name="senha" placeholder="Digite sua senha" required>
-        </div>
-        <div class="card-grupo">
-            <label for="Lembre-me"> <input type="checkbox" name="Lembre-me" id="Lembre-me">Lembrar de mim</label>
-            
-        </div>
-        <div class="card-grupo btn">
-            <button type="submit">Entrar</button>
-        </div>
+        
 
           
     </form>
